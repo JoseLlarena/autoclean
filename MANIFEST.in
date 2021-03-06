@@ -1,0 +1,3 @@
+include autoclean/lmpz
+include autoclean/build_binary
+include autoclean/ngram-count
