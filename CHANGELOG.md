@@ -1,12 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/josellarena/autoclean/tree/1.0.1) (2022-02-15)
+
+[Full Changelog](https://github.com/josellarena/autoclean/compare/1.0.0...1.0.1)
+
 ## [1.0.0](https://github.com/josellarena/autoclean/tree/1.0.0) (2022-02-15)
 
 [Full Changelog](https://github.com/josellarena/autoclean/compare/a23e29435146eb1f671da7009cc0afc3949b408b...1.0.0)
-
-**Merged pull requests:**
-
-- initial commit [\#2](https://github.com/JoseLlarena/autoclean/pull/2) ([JoseLlarena](https://github.com/JoseLlarena))
 
 
 

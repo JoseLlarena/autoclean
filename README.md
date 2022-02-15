@@ -209,13 +209,19 @@ sys	0m0.723s
 
 # Installation
 
-Install with pip:
-
+As Autoclean is on Pypi and also dependent on Pytorch, and there's currently not way of making a Pypy distribution
+depend on direct dependencies, Pytorch needs to be installed separately and previous to installing Autoclean. For 
+instance, for a Linux with Cuda set-up:
+```shell
+pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 \
+-f https://download.pytorch.org/whl/cu113/torch_stable.html
+```
+Then install Autoclean with pip:
 ```shell
 pip install autoclean
 ```
 
-The code requires python 3.8+ on linux and an Nvidia GPU. The binaries have been compiled against linux x86_64 and may 
+The code requires python 3.8+ on and and Nvidia GPU. The binaries have been compiled against Linux x86_64 and may 
 not work on other architectures.
  
 
